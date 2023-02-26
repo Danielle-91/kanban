@@ -1,3 +1,48 @@
+html {
+  font-size: 125%;
+}
+
+body {
+  background-color: rgb(116, 107, 255);
+  font-family: 'Roboto',
+    sans-serif;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+.main {
+  color: black;
+}
+
+.itemCards {
+  user-select: none;
+  padding: 16px;
+  margin: 0 0 8px 0;
+  height: 100px;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.columnContainer {
+  margin: 20px;
+
+}
+
+.taskColumns {
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 80vh;
 }
